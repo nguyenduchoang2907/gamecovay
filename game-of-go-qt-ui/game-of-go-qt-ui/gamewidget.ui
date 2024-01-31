@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameWidget</class>
+ <widget class="QWidget" name="GameWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>880</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>109</y>
+     <width>791</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="leftVBox"/>
+  </widget>
+  <widget class="QPushButton" name="btn_pass">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>830</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Pass</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_resign">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>830</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Resign</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_leave">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Leave</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>80</y>
+     <width>321</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="rightVBox"/>
+  </widget>
+  <widget class="QLabel" name="lbl_prompt">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>791</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_draw">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>830</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Offer A Draw</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_new_game">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>830</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Start New Game</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
